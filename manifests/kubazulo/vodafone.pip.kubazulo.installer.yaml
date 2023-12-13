@@ -1,0 +1,14 @@
+# Created with YamlCreate.ps1 v2.2.12 $debug=QUSU.CRLF.5-1-22621-2506.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: vodafone.pip.kubazulo
+PackageVersion: 0.0.6
+InstallerType: portable
+Commands:
+- kubazulo
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/k8stooling/kubazulo/releases/download/v0.0.6-beta/kubazulo.exe
+  InstallerSha256: A0FBDF1DD0877306F75B33ED95195F46C0763BB917B2FFEFCE72E2C524A4279D
+ManifestType: installer
+ManifestVersion: 1.5.0
